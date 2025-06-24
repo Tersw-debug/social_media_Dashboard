@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --light: ;
+    --light-bg: ;
+    --light-shadow: ;
+}
+
+@media (prefers-color-scheme: light)
+{
+
+}
+
+@media (prefers-color-scheme: dark)
+{
+
+}
+
+
+.body__main {
+    display: grid;
+    justify-content: center;
+}
+
+
+.body__main__div1{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 50px;
+    gap: 25rem;
+}
+
+.body__main__div_toggle{
+    margin-left: 10rem;
+    
+}
+
+.screenReaderTheme {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
